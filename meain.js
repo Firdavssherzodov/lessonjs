@@ -81,28 +81,28 @@
 
 
 
-const malumot = [
-    {
-        name:'osh'
-    },
-    {
-        name:'somsa'
-    },
-    {
-      name:'lavash'
-    }
-]
-let a = prompt('nima kerak')
-malumot.forEach((el)=>{
-  console.log(el);
+// const malumot = [
+//     {
+//         name:'osh'
+//     },
+//     {
+//         name:'somsa'
+//     },
+//     {
+//       name:'lavash'
+//     }
+// ]
+// let a = prompt('nima kerak')
+// malumot.forEach((el)=>{
+//   console.log(el);
  
-  if(el.name == a ){
-alert('bor')
-  }
-}
+//   if(el.name == a ){
+// alert('bor')
+//   }
+// }
 
   
-)
+// )
 
 
 
@@ -117,3 +117,11 @@ alert('bor')
 //  }
 
 //  meme()
+
+for (let i = 0; i < 10; ++i) {
+  // const element = array[i];
+  if(i == 5) {
+    break
+  }
+  console.log(i);
+}
