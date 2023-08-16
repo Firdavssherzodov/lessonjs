@@ -105,7 +105,6 @@ alert('bor')
 )
 
 
-let n = 12
 
 //  function meme() {
 
