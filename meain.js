@@ -134,8 +134,10 @@
 const arr = [1,2,3,4,5,6,7,6,9,7,9999,9,8]
 
 
-
+arr.splice(length-1,0,'salom')
 
  arr.splice(length-1, 1)
 
+
+ 
 console.log(arr);
