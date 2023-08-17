@@ -177,13 +177,14 @@
 // console.log(red);
 
 
-const numbersavalue = [1,{name:'salom',age:'12'},2,3,4,{name:'firdavs',age:11},5,6]
+// const numbersavalue = [1,{name:'salom',age:'12'},2,3,4,{name:'firdavs',age:11},5,6]
 
 
-const value1 = numbersavalue.reduce((num1,num2)=>{
-return num1 + num2.age;
-}
+// const value1 = numbersavalue.reduce((num1,num2)=>{
+// return num1 + num2.age;
+// }
 
-);
+// );
 
-console.log(value1);
+// console.log(value1);
+
