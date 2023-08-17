@@ -131,10 +131,59 @@
 
 
 
-const arr = [1,2,3,4,5,6,7,6,9,7,9999,9,8]
+// const arr = [1,2,3,4,5,6,7,6,9,7,9999,9,8]
+
+
+// arr.splice(length-1,0,'salom')
+
+//  arr.splice(length-1, 1)
+
+// console.log(arr);
 
 
 
+// const numbers = [1,2,55,4,5,3];
+
+// const ser = numbers.findIndex(threenum)
+
+// function threenum(value) {
+//     return value === 3 ;
+// }
+
+// console.log(ser);
 
 
- 
+
+// const res = '12345678'
+
+// const num = [1,2,3,4,5,6]
+
+// const salom = Array.from(num,)
+
+// console.log(salom);
+
+
+// const malumot =['salom','nima','gap','mayli']
+// const new1 = 'nima'
+
+// const red = malumot.find( t=>{
+//     if (new1 === t) {
+//         alert('bor')  
+//     }else{
+//         alert('yuq')
+//     }
+// });
+
+// console.log(red);
+
+
+const numbersavalue = [1,{name:'salom',age:'12'},2,3,4,{name:'firdavs',age:11},5,6]
+
+
+const value1 = numbersavalue.reduce((num1,num2)=>{
+return num1 + num2.age;
+}
+
+);
+
+console.log(value1);
