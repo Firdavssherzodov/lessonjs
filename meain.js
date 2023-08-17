@@ -118,10 +118,24 @@
 
 //  meme()
 
-for (let i = 0; i < 10; ++i) {
-  // const element = array[i];
-  if(i == 5) {
-    break
-  }
-  console.log(i);
-}
+// for (let i = 0; i < 10; ++i) {
+//   // const element = array[i];
+//   if(i == 5) {
+//     break
+//   }
+//   console.log(i);
+// }
+
+// 
+
+
+
+
+const arr = [1,2,3,4,5,6,7,6,9,7,9999,9,8]
+
+
+
+
+ arr.splice(length-1, 1)
+
+console.log(arr);
