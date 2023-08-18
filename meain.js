@@ -142,12 +142,12 @@
 
 
 
-// const numbers = [1,2,55,4,5,3];
+// const numbers = [1,2,55,4,5,3,'salm','salm'];
 
 // const ser = numbers.findIndex(threenum)
 
 // function threenum(value) {
-//     return value === 3 ;
+//     return value === 'salm' ;
 // }
 
 // console.log(ser);
@@ -155,7 +155,7 @@
 
 
 // const res = '12345678'
-
+     
 // const num = [1,2,3,4,5,6]
 
 // const salom = Array.from(num,)
@@ -163,25 +163,30 @@
 // console.log(salom);
 
 
-// const malumot =['salom','nima','gap','mayli']
+// const malumot =['salom','nima','gap','mayl']
 // const new1 = 'nima'
 
-// const red = malumot.find( t=>{
-//     if (new1 === t) {
-//         alert('bor')  
-//     }else{
-//         alert('yuq')
-//     }
+
+
+// const red = malumot.filter( t=>{
+
+//     return t.length == 4
+    
+   
 // });
 
 // console.log(red);
 
 
-const numbersavalue = [1,{name:'salom',age:12},2,3,4,{name:'firdavs',age:11},5,6]
+// const numbersavalue = [1,2,3,4,5,6]
 
 
+// const value1 = numbersavalue.reduce((num1,num2)=>{
+// return num1 + num2;
+// }
 
-);
 
-console.log(value1);
+//    ,10) ;
+
+// console.log(value1);
 
