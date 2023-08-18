@@ -12,7 +12,7 @@
 // console.log(13 && 11);
 
 
-
+//FOR
 // for (let index = 0; index <= 100 ;   index++   ) {
 //  if (index % 2 == 0 ) {
 //     console.log(index);
@@ -20,6 +20,7 @@
   
 // }
 
+//MAP 
 // const numbers =[1,2,3,4,5]
 
 // //  const newnambers = numbers.map( (salom) => salom ** 2 )
@@ -27,6 +28,7 @@
 // // console.log(newnambers);
 // const new1 = []
 
+//FOREACH
 // numbers.forEach ((salom) =>  {
 //    new1.push(salom ** 2)
 //    })
@@ -36,7 +38,7 @@
 
 
 
-
+//MAP
 // const movei = [
 // {name : 'Firdavs', id:1, rating : 9},
 // {name : 'Aboss', id:2, rating : 8},
@@ -59,7 +61,7 @@
 
 // let a = prompt('nima kerak')
 
-
+//DECLARASSION
 // function nono() {
 //   if(a == 'somsa' ){
 //   var son = prompt('nechta')
@@ -115,7 +117,7 @@
 //  }
 
 //  meme()
-
+//FOR
 // for (let i = 0; i < 10; ++i) {
 //   // const element = array[i];
 //   if(i == 5) {
@@ -131,7 +133,7 @@
 
 // const arr = [1,2,3,4,5,6,7,6,9,7,9999,9,8]
 
-
+//SPLICE
 // arr.splice(length-1,0,'salom')
 
 //  arr.splice(length-1, 1)
@@ -139,7 +141,7 @@
 // console.log(arr);
 
 
-
+//FINDINDEX
 // const numbers = [1,2,55,4,5,3,'salm','salm'];
 
 // const ser = numbers.findIndex(threenum)
@@ -156,6 +158,7 @@
      
 // const num = [1,2,3,4,5,6]
 
+//FROM
 // const salom = Array.from(num,)
 
 // console.log(salom);
@@ -165,16 +168,17 @@
 // const new1 = 'nima'
 
 
-
+//FILTER ///FIND
 // const red = malumot.filter( t=>{
 
 //     return t.length == 4
-    
+
 // });
 
 // console.log(red);
 
 
+// REDUCE
 // const numbersavalue = [1,2,3,4,5,6]
 
 // const value1 = numbersavalue.reduce((num1,num2)=>{
