@@ -1,7 +1,7 @@
 // const adress = prompt('api adressnini kirinting')
 
-// function salom(adress) {
-//    adress = adress.split(".")
+// function salom(adres) {
+//    adres = adress.split(".")
 //     console.log(adress);
 //     return adress
 // }
@@ -50,7 +50,7 @@
 // const m = movei.map((moves)=>{
 //     // return  {name : moves.name  , id : moves.id, rating: moves.rating + 1 }
 //   if (moves.id == 3) {
-//     return moves.name = 'salom abos'
+//     return moves.name = 'salom abos',
 // }else{
     
 // }
@@ -92,17 +92,17 @@
 //       name:'lavash'
 //     }
 // ]
-// let a = prompt('nima kerak')
+// let a1 = prompt('nima kerak');
 // malumot.forEach((el)=>{
 //   console.log(el);
  
-//   if(el.name == a ){
-// alert('bor')
+//   if(el.name == a1 ){
+// alert(el.name + ' ' + 'bor')
 //   }
 // }
 
   
-// )
+// );
 
 
 
@@ -189,3 +189,53 @@
 
 // console.log(value1);
 
+//includes
+// let name = 'Car and Firdavs'
+
+//  let p =  prompt('nima kerak')
+
+//  if (name.includes(p)) {
+//      alert('bor')
+//  }alert('yuq')
+
+
+
+//String methods
+let name1 = 'Car and Firdavs sherzodov'
+let names = 'firdavs' 
+
+
+// let srt = names.slice(1,2)
+// const srt = names.substring(5,-1)
+// let srt = name1.replace('and','') 
+// let srt = name1.indexOf('n')
+// let srt = name1.lastIndexOf('a')
+// let srt = name1.startsWith('Car')
+// let srt = name1.endsWith('sherzodov')
+//Home Task
+// 'fidusuifdsbibsdfuibsdfuibfsdiubfsdi Iskandar'
+// berilgan satrni oxirgi so'zi  "Iskandar bilan tugaganligini tekshiring"
+
+// let srt = name1.includes('and')
+
+// if (name1.endsWith('sherzodov')) {
+//     alert('bor') 
+// }
+
+// let name = 'Firdavs'
+// let age = 16
+// console.log(`Hello ${name} how are you bro ${age}`);
+
+// console.log(srt);   
+const numbers = [1,2,3,4,5,6]
+
+const a = numbers.filter((t)=>{
+ if (t == 5) {
+    alert('bor')
+  }  else{
+alert('yuq')
+  }
+}
+
+)
+console.log(a);
