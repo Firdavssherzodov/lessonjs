@@ -201,8 +201,8 @@
 
 
 //String methods
-let name1 = 'Car and Firdavs sherzodov'
-let names = 'firdavs' 
+// let name1 = 'Car and Firdavs sherzodov'
+// let names = 'firdavs' 
 
 
 // let srt = names.slice(1,2)
@@ -222,7 +222,7 @@ let names = 'firdavs'
 //     alert('bor') 
 // }
 
-// let name = 'Firdavs'
+// let name1 = 'Firdavs'.toUpperCase()
 // let age = 16
 // console.log(`Hello ${name} how are you bro ${age}`);
 
@@ -240,6 +240,17 @@ let names = 'firdavs'
 // )
 // console.log(a);
 
-     
-  }
-}
+
+
+
+// let a =  prompt('nima kerak')
+// let b = a.slice(1)
+// let srt = a.charAt(0)
+// let t = 'Firdavs'
+
+
+// if (srt) {
+//   alert(srt.toUpperCase() + b + ' ' + t)
+// }
+
+
