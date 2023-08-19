@@ -227,15 +227,19 @@ let names = 'firdavs'
 // console.log(`Hello ${name} how are you bro ${age}`);
 
 // console.log(srt);   
-const numbers = [1,2,3,4,5,6]
+// const numbers = [1,2,3,4,5,6]
 
-const a = numbers.filter((t)=>{
- if (t == 5) {
-    alert('bor')
-  }  else{
-alert('yuq')
+// const a = numbers.filter((t)=>{
+//  if (t == 5) {
+//     alert('bor')
+//   }  else{
+// alert('yuq')
+//   }
+// }
+
+// )
+// console.log(a);
+
+     
   }
 }
-
-)
-console.log(a);
