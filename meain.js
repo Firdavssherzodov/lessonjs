@@ -254,3 +254,15 @@
 // }
 
 
+// console.log('N'+'23'/23 +'DK');
+
+ 
+// let arr = [1,2,3,4]
+// arr.something = 9;
+// console.log(!0 || null || 9);
+
+// let funk = () => this;
+// console.log(funk);
+
+
+ 
