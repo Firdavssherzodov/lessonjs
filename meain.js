@@ -50,9 +50,10 @@
 // const m = movei.map((moves)=>{
 //     // return  {name : moves.name  , id : moves.id, rating: moves.rating + 1 }
 //   if (moves.id == 3) {
-//     return moves.name = 'salom abos',
-// }else{
-    
+//     return moves.name = 'salom abos';
+// }
+// else{
+   
 // }
 
 // })
