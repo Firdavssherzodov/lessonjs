@@ -266,4 +266,39 @@
 // console.log(funk);
 
 
+//  let a = 13 < 12 ? alert('ha togri'):alert('yuq no tigri');
  
+
+
+// destructuring
+
+// const [o,g ,...boshqa] = [ 'olma1','gilos1','nok1','uzum1']
+
+// // const o = mevalar[0];
+// // const g = mevalar[1];
+// // const n = mevalar[2];
+// // const u = mevalar[3];
+
+// console.log(o,g,boshqa)
+
+//SEtTIMEOUT
+
+// function callme() {
+//     alert('salom dunyo')
+// }
+// // setTimeout(callme,5000)
+
+// let a = 0;
+ 
+// const timer = setInterval(()=>{
+// a++
+// console.log(a);
+// },1000)
+ 
+
+// setTimeout(()=>{
+//     clearInterval(timer)
+// },10000)
+
+
+
