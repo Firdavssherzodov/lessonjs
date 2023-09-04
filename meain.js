@@ -62,7 +62,7 @@
 
 // let a = prompt('nima kerak')
 
-//DECLARASSION
+// // DECLARASSION
 // function nono() {
 //   if(a == 'somsa' ){
 //   var son = prompt('nechta')
@@ -72,7 +72,8 @@
 //   } else{
 //     alert('qolmagan')    
 //   }
-//   }else{ 
+//   }
+//   else{ 
 //     alert('bir gap aytaymi tur yuqol')
 //   } 
 // }
@@ -300,5 +301,87 @@
 //     clearInterval(timer)
 // },10000)
 
+// const car = {
+// name:'juguli',
+// color:'aqua',
+// balon:5,
+// speeds: function () {
+//     console.log('100 km/h');
+// }
+// }
+
+// Object.prototype.hello = function ( ) {
+//     console.log('hello nima gaplar');
+// }
 
 
+// const bus = Object.create(car)
+
+
+// bus.name = 'SOMSA';
+// bus.number = 20;
+
+// const srt =  new String('la rihata fid dunyo')
+
+// const buy = Object.create(srt)
+// let internet = false ;
+
+// const getData = () => {
+//    return  new Promise((resolve,reject) =>{
+// if(internet){
+//    resolve('some data');
+// }else{
+// reject('some error')
+// }
+//    }
+// )}
+
+
+
+
+// getData().catch((async)=>{
+//     console.log(async);
+// }).catch((error)=>{
+// console.log(error);
+// }
+
+// )
+
+
+// function getName(city1,city2,city3,city4) {
+//     console.log(this.fname + ' ' + this.lname +  ' Salom nima gaplar' +  ' ' + city1 + ' ' + city2 + ' ' + city3 + ' '+ city4);
+// }
+
+// CALL, BIND ,APPLY
+// let names = {
+// fname:'Firdav',
+// lname:'sherzodov',
+// getadd:function(a,v){
+// console.log(this.fname + ' ' + this.lname + ' ' + a + ' ' + v);
+// }
+
+// }
+
+// const names2 = [
+//     'Sherzodov',
+//     'Firdavs'
+// ];
+
+// const seti =['qandaye','tinchmi','bolyaptimi','hechnima yuq']
+
+
+// const bindName =  getName.bind(names);
+
+// bindName('salom 1','salom 2','salom 3','salom 4')
+
+
+// names.getadd.call(n'salom','nima')
+
+//   username: "mor_2314",
+//   password: "83r5^_"
+
+
+fetch('https://fakestoreapi.com/auth/login')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+            
