@@ -381,7 +381,4 @@
 //   password: "83r5^_"
 
 
-fetch('https://fakestoreapi.com/auth/login')
-            .then(res=>res.json())
-            .then(json=>console.log(json))
             
