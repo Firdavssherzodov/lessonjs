@@ -17,14 +17,14 @@
 //  if (index % 2 == 0 ) {
 //     console.log(index);
 //  }
-  
+
 // }
 
 //MAP 
 // const numbers =[1,2,3,4,5]
 
 // //  const newnambers = numbers.map( (salom) => salom ** 2 )
- 
+
 // // console.log(newnambers);
 // const new1 = []
 
@@ -32,7 +32,7 @@
 // numbers.forEach ((salom) =>  {
 //    new1.push(salom ** 2)
 //    })
- 
+
 
 // console.log(new1);
 
@@ -53,7 +53,7 @@
 //     return moves.name = 'salom abos';
 // }
 // else{
-   
+
 // }
 
 // })
@@ -79,7 +79,7 @@
 // }
 
 // nono()
- 
+
 
 
 
@@ -97,13 +97,13 @@
 // let a1 = prompt('nima kerak');
 // malumot.forEach((el)=>{
 //   console.log(el);
- 
+
 //   if(el.name == a1 ){
 // alert(el.name + ' ' + 'bor')
 //   }
 // }
 
-  
+
 // );
 
 
@@ -157,7 +157,7 @@
 
 
 // const res = '12345678'
-     
+
 // const num = [1,2,3,4,5,6]
 
 //FROM
@@ -258,7 +258,7 @@
 
 // console.log('N'+'23'/23 +'DK');
 
- 
+
 // let arr = [1,2,3,4]
 // arr.something = 9;
 // console.log(!0 || null || 9);
@@ -268,7 +268,7 @@
 
 
 //  let a = 13 < 12 ? alert('ha togri'):alert('yuq no tigri');
- 
+
 
 
 // destructuring
@@ -290,12 +290,12 @@
 // // setTimeout(callme,5000)
 
 // let a = 0;
- 
+
 // const timer = setInterval(()=>{
 // a++
 // console.log(a);
 // },1000)
- 
+
 
 // setTimeout(()=>{
 //     clearInterval(timer)
@@ -381,4 +381,106 @@
 //   password: "83r5^_"
 
 
-            
+
+//   const number = 20;
+  
+//   number = 30;
+//   console.log(number);
+
+
+
+//   let num = number;
+//    num = 25;
+//    console.log(num)
+
+
+// const person = {
+// name:'Sodiq',
+// age:19
+// }
+// person['name'] = 34;
+
+// console.log(person.name);
+
+//
+
+
+// let x = 10;
+// let y = 5;
+
+
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log( x / y );
+// console.log(x % y);
+// console.log(x ** y );
+
+ //DECASION
+// console.log(--x);
+    
+ // INCARASION
+// console.log(++x);
+
+// console.log(x >= y);
+
+// console.log(x !== '5');
+
+// console.log('2' === 2);
+
+
+
+// let person = {
+//     name:'firdavs',
+//     age:34
+// }
+
+// console.log(person.name && 'somsa');
+// let qiymat = (5 + 10) || 5 * 5;
+// console.log(qiymat);
+// let mijoz = false;
+
+// let result = mijoz ? '20% chegirma beriladi' :'5% briladi';
+// console.log('sizga',result);
+
+
+// let isopen = false;
+
+// console.log(!isopen);
+
+// let a ;
+// let b = null;
+// let c = undefined;
+// let d = 4;
+// let e = 'five';
+// let f = a || b || c || !d || !e ;
+// console.log(f);
+
+// let  a  = 5;
+// let b = 10;
+
+// let c = a;
+// a = b 
+// b = c
+
+// let srt = [
+//     color1,
+//     color2
+// ]
+// let srt2 = [
+//     color2,
+//     color1
+// ]
+
+
+
+ 
+// console.log(srt);
+// console.log(srt2);
+
+// console.log(a);
+// console.log(b);
+
+
+
+
