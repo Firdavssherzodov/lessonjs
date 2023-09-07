@@ -483,5 +483,21 @@
 // console.log(b);
 
 
- 
+   
+
+class Car {
+    constructor(options){
+this.name = options.name
+this.age = options.age
+this.lastName = options.lastName
+    }
+}
+
+
+const CSS = new Car(options,{
+name:'Firdavs',
+age:17,
+lastName:'Sherzodov'
+    }
+)
 
