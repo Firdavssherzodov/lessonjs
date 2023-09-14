@@ -383,7 +383,7 @@
 
 
 //   const number = 20;
-  
+
 //   number = 30;
 //   console.log(number);
 
@@ -416,10 +416,10 @@
 // console.log(x % y);
 // console.log(x ** y );
 
- //DECASION
+//DECASION
 // console.log(--x);
-    
- // INCARASION
+
+// INCARASION
 // console.log(++x);
 
 // console.log(x >= y);
@@ -483,15 +483,53 @@
 // console.log(b);
 
 
-   
-
-class Car {
-    constructor(options){
-this.name = options.name
-this.age = options.age
-this.lastName = options.lastName
-    }
-}
 
 
+// class Car {
+//     constructor(options) {
+//         this.name = options.name
+//         this.age = options.age
+//         this.lastName = options.lastName
+//     }
 
+//     speed(){
+//         console.log('100/ km');
+//     }
+// }
+
+
+// const css = new Car(options= {
+//     name: 'Firdavs',
+//     age: 17,
+//     lastName: 'Sherzodov'
+    
+// }
+// )
+
+  
+//  class Bus extends Car{}
+
+// const Man = new Bus (
+// options = {
+//  name : 'Man',
+//  age:19.0,
+//  lastName:'Toshmonov ',
+//  oldName:'Eshmonov'
+// })
+
+
+
+//  console.log(  (false && true) || ( null || true) && '' && false || (false || undefined));
+ 
+ 
+//  for (let index = 0; index < 50; index++) {
+//   if ( index   0) {
+//     console.log(index);
+ 
+//   }
+
+//  }
+ 
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
