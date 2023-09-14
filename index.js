@@ -494,10 +494,4 @@ this.lastName = options.lastName
 }
 
 
-const CSS = new Car(options,{
-name:'Firdavs',
-age:17,
-lastName:'Sherzodov'
-    }
-)
 
