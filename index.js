@@ -6,11 +6,9 @@
 //     return adress
 // }
 
-
 // salom(adress)
 
 // console.log(13 && 11);
-
 
 //FOR
 // for (let index = 0; index <= 100 ;   index++   ) {
@@ -20,7 +18,7 @@
 
 // }
 
-//MAP 
+//MAP
 // const numbers =[1,2,3,4,5]
 
 // //  const newnambers = numbers.map( (salom) => salom ** 2 )
@@ -33,10 +31,7 @@
 //    new1.push(salom ** 2)
 //    })
 
-
 // console.log(new1);
-
-
 
 //MAP
 // const movei = [
@@ -45,7 +40,6 @@
 // {name : 'ALISHER', id:3, rating : 7},
 // {name : 'Eshak', id:4, rating : 6}
 // ]
-
 
 // const m = movei.map((moves)=>{
 //     // return  {name : moves.name  , id : moves.id, rating: moves.rating + 1 }
@@ -59,10 +53,9 @@
 // })
 // console.log(movei);
 
-
 // let a = prompt('nima kerak')
 
-// // DECLARASSION
+// // // DECLARASSION
 // function nono() {
 //   if(a == 'somsa' ){
 //   var son = prompt('nechta')
@@ -70,18 +63,15 @@
 //   if (son) {
 //     alert('mana senga' + ' ' + son)
 //   } else{
-//     alert('qolmagan')    
+//     alert('qolmagan')
 //   }
 //   }
-//   else{ 
+//   else{
 //     alert('bir gap aytaymi tur yuqol')
-//   } 
+//   }
 // }
 
 // nono()
-
-
-
 
 // const malumot = [
 //     {
@@ -103,10 +93,7 @@
 //   }
 // }
 
-
 // );
-
-
 
 //  function meme() {
 
@@ -128,10 +115,7 @@
 //   console.log(i);
 // }
 
-// 
-
-
-
+//
 
 // const arr = [1,2,3,4,5,6,7,6,9,7,9999,9,8]
 
@@ -141,7 +125,6 @@
 //  arr.splice(length-1, 1)
 
 // console.log(arr);
-
 
 //FINDINDEX
 // const numbers = [1,2,55,4,5,3,'salm','salm'];
@@ -154,8 +137,6 @@
 
 // console.log(ser);
 
-
-
 // const res = '12345678'
 
 // const num = [1,2,3,4,5,6]
@@ -165,10 +146,8 @@
 
 // console.log(salom);
 
-
 // const malumot =['salom','nima','gap','mayl']
 // const new1 = 'nima'
-
 
 //FILTER ///FIND
 // const red = malumot.filter( t=>{
@@ -178,7 +157,6 @@
 // });
 
 // console.log(red);
-
 
 // REDUCE
 // const numbersavalue = [1,2,3,4,5,6]
@@ -200,16 +178,13 @@
 //      alert('bor')
 //  }alert('yuq')
 
-
-
 //String methods
 // let name1 = 'Car and Firdavs sherzodov'
-// let names = 'firdavs' 
-
+// let names = 'firdavs'
 
 // let srt = names.slice(1,2)
 // const srt = names.substring(5,-1)
-// let srt = name1.replace('and','') 
+// let srt = name1.replace('and','')
 // let srt = name1.indexOf('n')
 // let srt = name1.lastIndexOf('a')
 // let srt = name1.startsWith('Car')
@@ -218,17 +193,17 @@
 // 'fidusuifdsbibsdfuibsdfuibfsdiubfsdi Iskandar'
 // berilgan satrni oxirgi so'zi  "Iskandar bilan tugaganligini tekshiring"
 
-// let srt = name1.includes('and')
+// let srt = name1.includes('salom')
 
 // if (name1.endsWith('sherzodov')) {
-//     alert('bor') 
+//     alert('bor')
 // }
 
 // let name1 = 'Firdavs'.toUpperCase()
 // let age = 16
 // console.log(`Hello ${name} how are you bro ${age}`);
 
-// console.log(srt);   
+// console.log(srt);
 // const numbers = [1,2,3,4,5,6]
 
 // const a = numbers.filter((t)=>{
@@ -242,22 +217,16 @@
 // )
 // console.log(a);
 
-
-
-
 // let a =  prompt('nima kerak')
 // let b = a.slice(1)
 // let srt = a.charAt(0)
 // let t = 'Firdavs'
 
-
 // if (srt) {
 //   alert(srt.toUpperCase() + b + ' ' + t)
 // }
 
-
 // console.log('N'+'23'/23 +'DK');
-
 
 // let arr = [1,2,3,4]
 // arr.something = 9;
@@ -266,10 +235,7 @@
 // let funk = () => this;
 // console.log(funk);
 
-
 //  let a = 13 < 12 ? alert('ha togri'):alert('yuq no tigri');
-
-
 
 // destructuring
 
@@ -296,7 +262,6 @@
 // console.log(a);
 // },1000)
 
-
 // setTimeout(()=>{
 //     clearInterval(timer)
 // },10000)
@@ -314,9 +279,7 @@
 //     console.log('hello nima gaplar');
 // }
 
-
 // const bus = Object.create(car)
-
 
 // bus.name = 'SOMSA';
 // bus.number = 20;
@@ -336,9 +299,6 @@
 //    }
 // )}
 
-
-
-
 // getData().catch((async)=>{
 //     console.log(async);
 // }).catch((error)=>{
@@ -346,7 +306,6 @@
 // }
 
 // )
-
 
 // function getName(city1,city2,city3,city4) {
 //     console.log(this.fname + ' ' + this.lname +  ' Salom nima gaplar' +  ' ' + city1 + ' ' + city2 + ' ' + city3 + ' '+ city4);
@@ -369,30 +328,23 @@
 
 // const seti =['qandaye','tinchmi','bolyaptimi','hechnima yuq']
 
-
 // const bindName =  getName.bind(names);
 
 // bindName('salom 1','salom 2','salom 3','salom 4')
-
 
 // names.getadd.call(n'salom','nima')
 
 //   username: "mor_2314",
 //   password: "83r5^_"
 
-
-
 //   const number = 20;
 
 //   number = 30;
 //   console.log(number);
 
-
-
 //   let num = number;
 //    num = 25;
 //    console.log(num)
-
 
 // const person = {
 // name:'Sodiq',
@@ -404,10 +356,8 @@
 
 //
 
-
 // let x = 10;
 // let y = 5;
-
 
 // console.log(x + y);
 // console.log(x - y);
@@ -428,8 +378,6 @@
 
 // console.log('2' === 2);
 
-
-
 // let person = {
 //     name:'firdavs',
 //     age:34
@@ -442,7 +390,6 @@
 
 // let result = mijoz ? '20% chegirma beriladi' :'5% briladi';
 // console.log('sizga',result);
-
 
 // let isopen = false;
 
@@ -460,7 +407,7 @@
 // let b = 10;
 
 // let c = a;
-// a = b 
+// a = b
 // b = c
 
 // let srt = [
@@ -472,18 +419,11 @@
 //     color1
 // ]
 
-
-
-
-
 // console.log(srt);
 // console.log(srt2);
 
 // console.log(a);
 // console.log(b);
-
-
-
 
 // class Car {
 //     constructor(options) {
@@ -497,16 +437,14 @@
 //     }
 // }
 
-
 // const css = new Car(options= {
 //     name: 'Firdavs',
 //     age: 17,
 //     lastName: 'Sherzodov'
-    
+
 // }
 // )
 
-  
 //  class Bus extends Car{}
 
 // const Man = new Bus (
@@ -517,19 +455,184 @@
 //  oldName:'Eshmonov'
 // })
 
-
-
 //  console.log(  (false && true) || ( null || true) && '' && false || (false || undefined));
- 
- 
+
 //  for (let index = 0; index < 50; index++) {
 //   if ( index   0) {
 //     console.log(index);
- 
+
 //   }
 
 //  }
- 
+
+// for(let i = 0; i<= 10; i++){
+// if ( i%2 !==0) {
+//     console.log(i.toString());
+// }
+// }
+
+// let a = 20 ;
+// while(a > 0  ){
+// // console.log('salom nima gaplar')
+
+//     console.log(a);
+
+// --a
+// }
+
+// let sualt = 100;
+// do{
+//    console.log(sualt);
+//    --sual
+
+// }while(sualt >= 1);
+
+// let i = 0 ;
+
+// while(  i < 20 ){
+// if(i % 2 !==0){
+// i++
+// continue
+// }
+// }
+
+// let colors = ['oq','qora','sariq'];
+
+// for(let index in colors)
+// console.log(colors[index]);
+
+// for(let color of colors)
+// console.log(color);
+
+//Amaliyot mash
+
+// let getSaa = addnumber(2,4);
+
+// function addnumber(params1,params2) {
+// return (params1 > params2) ? params1 : params2;
+// }
+
+//  console.log(getSaa);
+// let user = isLandscape(11,10);
+
+// function isLandscape(width,height) {
+//  return (width > height);
+// }
+
+// console.log(user);
+
+// let add = PlusAdd(15);
+
+// console.log(add);
+
+// function PlusAdd(input) {
+//     if (typeof input !== "number")
+//         return 'Son emas';
+//     if ((input % 3 === 0) && (input % 5 === 0))
+//         return 'FzzBuzz';
+//     if (input % 3 === 0)
+//         return 'Fizz';
+//     if (input % 5 === 0)
+//         return 'Buzz';
+
+//     return input ;
+
+// }
+
+// const free = count(4,2)
+
+// console.log(free);
+
+// function count(params1,params2) {
+//  return (params1 > params2) ? params1 :params2;
+// }
+
+//  let count = isLandscape(2,4)
+
+//  console.log(count);
+// function isLandscape(width,height) {
+//  if (width > height) {
+//     return true
+//  }else{
+//     return false
+//  }
+// }
+
+// let count = FzzBuzz(7);
+
+// console.log(count);
+
+// function FzzBuzz(params) {
+//     if (typeof params !== 'number') {
+//         return 'Son emas'
+//     } if (params % 3 === 0 && params % 5 === 0) {
+//         return 'FzzBuzz'
+//     } if (params % 3 === 0) {
+//         return "Fzzz"
+//     } if (params % 5 === 0) {
+//         return 'Buzz'
+//     } return params;
+
+// }
+// const SPEED_LIMIT = 70;
+// const KM = 5;
+// const Max = 12 ;
+
+// const free = chack(135);
+
+// console.log(free);
+
+// function chack(speed) {
+//     if (speed < SPEED_LIMIT) {
+//       return 'Ok'
+//     }else{
+//      let  points = Math.floor( (speed - SPEED_LIMIT) / KM);
+//      if (points >= Max) {
+//       return 'Prava Reshat';
+//      }else{
+//         return points;
+//      }
+//     }
+// }
+// const free = sum(10);
+// console.log(free);
+
+// function sum(limit) {
+//   let sum = 0;
+
+//   for (let i = 0; i <= limit; i++) {
+//     if ((i % 3 === 0) || (i % 5 === 0)) {
+//       sum += i
+//     }
+//   }
+//   return sum;
+// }
+// let car = {
+//   model:'Nexia',
+//   make:'2',
+//   year :18,
+//   price:5000
+// }
+
+// function name1(obj) {
+
+//   for(let key in obj ){
+//   if(typeof obj[key] === 'string'){
+//     console.log(key,obj[key]);
+//   }
+// }
+// }
+
+// name1(car)
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+// ONINPUT
+
+// let input = document.querySelector(".input");
+
+// input.oninput = () => {
+// let love = document.querySelector('.fa-solid')
+// //    love.style.color = input.value; 
+// document.body.style.backgroundColor = input.value;
+// // console.log(input.value);
+// };
