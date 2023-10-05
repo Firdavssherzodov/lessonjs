@@ -625,7 +625,6 @@
 
 // name1(car)
 
-
 // ONINPUT
 
 // let input = document.querySelector(".input");
