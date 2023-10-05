@@ -627,11 +627,78 @@
 
 // ONINPUT
 
-// let input = document.querySelector(".input");
+let input = document.querySelector(".input");
 
-// input.oninput = () => {
-// let love = document.querySelector('.fa-solid')
-// //    love.style.color = input.value; 
-// document.body.style.backgroundColor = input.value;
-// // console.log(input.value);
+input.oninput = () => {
+  let love = document.querySelector(".fa-solid");
+  //    love.style.color = input.value;
+  document.body.style.backgroundColor = input.value;
+  // console.log(input.value);
+};
+
+// showPrimenumber(20);
+
+// function showPrimenumber(limit) {
+//   for (let number = 2; number <= limit; number++) {
+//     if (isPrime(number)) console.log(number);
+//   }
+// }
+
+// function isPrime(number) {
+//   for (let factor = 2; factor < number; factor++) return false;
+
+//   return true;
+// }
+
+// let circle = {
+//     radius:10,
+//     location:{
+//         x:1,
+//         y:1
+//     },
+//     drew:function(){
+//         console.log('salong');
+//     }
+// }
+
+// circle.drew();
+
+// FICTORY FUNCTION
+
+// function fictory(radius){
+//  return {
+//     radius,
+//     location:{
+//         x:1,
+//         y:1
+//     },
+//     drew:function(){
+//         console.log('salong');
+//     }
 // };
+
+// }
+
+//  const circle1 = fictory(2);
+//  console.log(circle1);
+
+// const circle2 = fictory(4);
+// console.log(circle2);
+
+// CONSTRUCTOR FUNCTIONS
+
+// function Circle(radius) {
+//   this.radius = radius;
+//   this.draw = function () {
+//     console.log("CONSTRUCTOR FUNCTIONS");
+//   };
+// }
+
+// const circle = new Circle(3)
+// console.log(circle);
+// circle.color = 'yellow';
+
+// const circle22 = new Circle(22)
+// console.log(circle22);
+// delete circle22.color;
+
