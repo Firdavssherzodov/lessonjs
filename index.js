@@ -631,7 +631,7 @@ let input = document.querySelector(".input");
 
 input.oninput = () => {
   let love = document.querySelector(".fa-solid");
-  //    love.style.color = input.value;
+  //  love.style.color = input.value;
   document.body.style.backgroundColor = input.value;
   // console.log(input.value);
 };
@@ -662,6 +662,14 @@ input.oninput = () => {
 // }
 
 // circle.drew();
+
+// INPUT IMG SENT
+
+// let img = document.querySelector('#img');
+// let input1 = document.querySelector('.inputt');
+// input1.addEventListener('change',(e)=>{
+// img.src = URL.createObjectURL(e.target.files[0])
+// })
 
 // FICTORY FUNCTION
 
@@ -701,4 +709,65 @@ input.oninput = () => {
 // const circle22 = new Circle(22)
 // console.log(circle22);
 // delete circle22.color;
+
+// function Createobj(name, age) {
+//   return {
+//     name: name,
+//     age: age,
+//   };
+// }
+// const obj1 = Createobj("Shomirza", 66);
+
+// console.log(obj1);
+
+// const obj2 = Createobj('Firdavs',55)
+//  obj2.backgroundColor  = 'white';
+// console.log(obj2);
+
+// function Firdavs(params, params2) {
+//   this.name = params2;
+//   this.age = params;
+//   this.development = function (a, b) {
+//     this.name1 = a;
+//     this.func = b;
+//   };
+//   this.mirrite = true;
+// }
+
+// const firdavs = new Firdavs(17, "firdavs");
+// firdavs.development("salom", "hello");
+// console.log(firdavs);
+
+// CONSTRUCTOR AND OBJECT FUNCTIONS
+// let person = {
+//   rusmi: " msi ",
+//   gtx: 3050,
+//   core:5,
+//   color: 'green'
+// };
+
+// let per = person.rusmi.toUpperCase();
+
+// function constur(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// let use = new constur( person, 17);
+// use.color = person.color
+// console.log(use);
+
+const data = new Date();
+let soat = data.getHours();
+
+let minut = data.getMinutes();
+
+let secunt = data.getSeconds();
+
+let yil = data.getFullYear(); 
+
+setTimeout(() => {
+  console.log(soat + ' ' + minut + ' ' + secunt );
+}
+,1000)
 
