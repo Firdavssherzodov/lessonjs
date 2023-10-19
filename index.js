@@ -833,26 +833,26 @@ input.oninput = () => {
 
 //  console.log('by ', numver);
 
-let circle = {
-  raduis: 1,
-  drew() {
-    console.log("doira");
-  },
-  age: 17,
-};
+// let circle = {
+//   raduis: 1,
+//   drew() {
+//     console.log("doira");
+//   },
+//   age: 17,
+// };
 
-let circle1 = {
-  raduis: 12,
-  drew() {
-    console.log("doira12");
-  },
-  age: 17,
-};
+// let circle1 = {
+//   raduis: 12,
+//   drew() {
+//     console.log("doira12");
+//   },
+//   age: 17,
+// };
 
 //  for(let key in circle)
 //  console.log( circle[key] );
 
-for (let entry of Object.entries(circle)) console.log(entry);
+// for (let entry of Object.entries(circle)) console.log(entry);
 
 //  if ('age' in circle) {
 //   console.log('bor bacham');
@@ -897,5 +897,58 @@ for (let entry of Object.entries(circle)) console.log(entry);
 
 
 
+// Math() Object
 
-}
+
+console.log(Math.PI);
+// -----------------------------------------------------------------------------------------
+// 1
+// Math.round(); methodi yordamida berilgan kasir soni butun song a aylatirishimiz mumkin
+// natija let x = 4.4; : 4
+// natija let y = 4.5; : 5
+// 2
+// Math.pow( x , y) methodi o'ziga ikkita paramertir qabul qiladi bu yordamida berilgan x argementini y dagi darajasini chiqaradi beradi
+// natija Math.pow(8,2) : 64
+// 3 
+// Math.rondom() methodi biz 0 va 1 oralig'idagi tasodifiy qiymatni olib beradi 
+// -------------------------------------------------------------------------------------------
+ // JavaScript da String ikki turga bo'linadi birinchisi String ikkinchisi String Oblecti 
+ // Primitive String let a = 'string'; : String
+ // String Object let a  = new String() : String Object
+// 1.Savol?
+ //string primetiv turga kirsa nega unda method va hodisalae chiqayapdi chundi
+ // chunki biz Stringa . bilan murojjat qilganimizda javascript unga birdan String Object ni method va hodisalrini beradi 
+// casesinsevitiv textdagi katta yoki kichik ligiga ham etibor beradi
+// String Objectlari iminiyoutuble  yani O'zgarmas hisoblanadi, Lekin biz unga replce method ishlash natijasida bizga yangi Stirng methodi qaytariladi
+
+ 
+let greting = ' Asalamu alekum ';
+// String methods 
+// let greting2 = new String(); 
+// console.log(greting[4]);
+// console.log(greting.indexOf('ek'));
+// console.log(greting.replace('salamu','salimjon'));
+// let greting3 = greting.replace('salamu', 'salimjon') 
+// console.log(greting.toUpperCase());
+// console.log(greting3.toLowerCase());
+// console.log(greting.trim());
+
+// baketik  `` ;
+
+let text  =  'Ertalab turganingda \'Xayitle tong\' deyish kerak';
+
+console.log(text.split(' ' ));
+ 
+let work = `
+'salom'
+dadda
+adadsd,sdfdsidsfb   d sbf
+`;
+console.log(work);
+
+ 
+
+
+
+
+ 
