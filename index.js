@@ -899,8 +899,7 @@ input.oninput = () => {
 
 // Math() Object
 
-
-console.log(Math.PI);
+// console.log(Math.PI);
 // -----------------------------------------------------------------------------------------
 // 1
 // Math.round(); methodi yordamida berilgan kasir soni butun song a aylatirishimiz mumkin
