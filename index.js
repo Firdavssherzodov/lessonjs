@@ -757,17 +757,145 @@ input.oninput = () => {
 // use.color = person.color
 // console.log(use);
 
-const data = new Date();
-let soat = data.getHours();
+// const data = new Date();
+// let soat = data.getHours();
 
-let minut = data.getMinutes();
+// let minut = data.getMinutes();
 
-let secunt = data.getSeconds();
+// let secunt = data.getSeconds();
 
-let yil = data.getFullYear(); 
+// let yil = data.getFullYear();
 
-setTimeout(() => {
-  console.log(soat + ' ' + minut + ' ' + secunt );
+// setInterval(() => {
+//   console.log(soat + ' ' + minut + ' ' + secunt );
+// }
+// ,1000)
+
+// function Circle(params) {
+//   this.raduis = params;
+//   this.drew = function () {
+//     console.log("labu guju");
+//   };
+// }
+
+// console.log(Circle.name , Circle.length, Circle.constructor);
+
+// const Circle2 = new Function('name',`
+// this.raduis = name;
+// this.drew = function(){
+//   console.log('labu guju');
+// }
+// `)
+//  const circle = new Circle2('firdavs')
+//  circle.backgroundColor = 'yellow';
+//  console.log(circle);
+
+//FUNCTION CHAQIRISH
+// let salom  =Circle.call({},4);
+// Circle.apply({}, [3])
+
+// console.log(salom);
+
+// function greet(name) {
+//   console.log("Hello : " + name);
+
+// }
+
+// let person = {
+//   name: "Firdavs",
+//   age: 17,
+// };
+
+// greet.apply({}, ['son']);
+
+// VALUE TYPES yani PERIMETIV TYPE
+// let a = 5 ;
+// let b = a ;
+//  a = 10;
+//   console.log(a,b);
+
+// REFERNCE TYPES yani NOPERIMETIV TYPE
+//   let person = {
+//     value:10
+//   }
+//  let y  = person
+//  y.value = 20;
+//  console.log(y);
+
+// let numver = {value :1};
+
+//  function getter(numver) {
+//   numver.value++;
+//   console.log('hello ,' , numver);
+
+//  }
+//  getter(numver)
+
+//  console.log('by ', numver);
+
+let circle = {
+  raduis: 1,
+  drew() {
+    console.log("doira");
+  },
+  age: 17,
+};
+
+let circle1 = {
+  raduis: 12,
+  drew() {
+    console.log("doira12");
+  },
+  age: 17,
+};
+
+//  for(let key in circle)
+//  console.log( circle[key] );
+
+for (let entry of Object.entries(circle)) console.log(entry);
+
+//  if ('age' in circle) {
+//   console.log('bor bacham');
+//  }else{
+//   console.log('yuq bacham');
+//  }
+
+// OBJECT CLONE 1 OLISH
+// let clone = {};
+//  for(let key in circle)
+// clone[key] = circle[key];
+
+// OBJECT CLONE 2 OLISH
+// const clone = Object.assign({color:'yellow'},circle,[circle1] )
+
+// OBJECT CLONE 3 OLISH
+// const clone ={...circle }
+
+// console.log(clone);
+
+// CALL STACK AND HEAP
+// let arrary = [1, 2, 3, 4, [1, 2, 3, 4]];
+
+// let arrary2 = arrary;
+// arrary2[4] = 5;
+
+// let a = arrary[4];
+// // 5
+
+// arrary = null;
+// arrary2 = null;
+
+// let b = a;
+// b = 10;
+
+// console.log(arrary, "ARRARY");
+// console.log(arrary2, "ARRARY,2");
+// console.log(a, "a");
+// console.log(b, "b");
+
+// VS CODE color =  Dark Modern
+
+
+
+
 }
-,1000)
-
