@@ -918,7 +918,7 @@ console.log(Math.PI);
 // 1.Savol?
  //string primetiv turga kirsa nega unda method va hodisalae chiqayapdi chundi
  // chunki biz Stringa . bilan murojjat qilganimizda javascript unga birdan String Object ni method va hodisalrini beradi 
-// casesinsevitiv textdagi katta yoki kichik ligiga ham etibor beradi
+// Casesinsevitiv textdagi katta yoki kichik ligiga ham etibor beradi
 // String Objectlari iminiyoutuble  yani O'zgarmas hisoblanadi, Lekin biz unga replce method ishlash natijasida bizga yangi Stirng methodi qaytariladi
 
  
