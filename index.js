@@ -866,12 +866,10 @@ input.oninput = () => {
 // clone[key] = circle[key];
 
 // OBJECT CLONE 2 OLISH
-// const clone = Object.assign({color:'yellow'},circle,[circle1] )
+// const clone = Object.assign({color:'yellow'},circle1,[circle1])
 
 // OBJECT CLONE 3 OLISH
 // const clone ={...circle }
-
-// console.log(clone);
 
 // // CALL STACK AND HEAP
 // // let arrary = [1, 2, 3, 4, [1, 2, 3, 4]];
@@ -895,8 +893,6 @@ input.oninput = () => {
 
 // // VS CODE color =  Dark Modern
 
-
-
 // // Math() Object
 
 // // console.log(Math.PI);
@@ -908,45 +904,42 @@ input.oninput = () => {
 // // 2
 // // Math.pow( x , y) methodi o'ziga ikkita paramertir qabul qiladi bu yordamida berilgan x argementini y dagi darajasini chiqaradi beradi
 // // natija Math.pow(8,2) : 64
-// // 3 
-// // Math.rondom() methodi biz 0 va 1 oralig'idagi tasodifiy qiymatni olib beradi 
+// // 3
+// // Math.rondom() methodi biz 0 va 1 oralig'idagi tasodifiy qiymatni olib beradi
 // // -------------------------------------------------------------------------------------------
-//  // JavaScript da String ikki turga bo'linadi birinchisi String ikkinchisi String Oblecti 
+//  // JavaScript da String ikki turga bo'linadi birinchisi String ikkinchisi String Oblecti
 //  // Primitive String let a = 'string'; : String
 //  // String Object let a  = new String() : String Object
 // // 1.Savol?
 //  //string primetiv turga kirsa nega unda method va hodisalae chiqayapdi chundi
-//  // chunki biz Stringa . bilan murojjat qilganimizda javascript unga birdan String Object ni method va hodisalrini beradi 
+//  // chunki biz Stringa . bilan murojjat qilganimizda javascript unga birdan String Object ni method va hodisalrini beradi
 // // Casesinsevitiv textdagi katta yoki kichik ligiga ham etibor beradi
 // // String Objectlari iminiyoutuble  yani O'zgarmas hisoblanadi, Lekin biz unga replce method ishlash natijasida bizga yangi Stirng methodi qaytariladi
 
- 
 // let greting = ' Asalamu alekum ';
-// // String methods 
-// // let greting2 = new String(); 
+// // String methods
+// // let greting2 = new String();
 // // console.log(greting[4]);
 // // console.log(greting.indexOf('ek'));
 // // console.log(greting.replace('salamu','salimjon'));
-// // let greting3 = greting.replace('salamu', 'salimjon') 
+// // let greting3 = greting.replace('salamu', 'salimjon')
 // // console.log(greting.toUpperCase());
 // // console.log(greting3.toLowerCase());
 // // console.log(greting.trim());
 
 // // baketik  `` ;
 
-
 // let text  =  'Ertalab \n turganingda \n \'Xayitle tong\' \n deyish \n kerak';
 // console.log(text);
 
 // // console.log(text.split(' ' ));
- 
+
 // let work = `
 // 'salom'
 // dadda
 // adadsd,sdfdsidsfb   d sbf
 // `;
 // // console.log(work);
-
 
 // let clone = {
 // name:'firdavs',
@@ -985,21 +978,240 @@ input.oninput = () => {
 //   }));
 // }
 
-
 // name1(1,2,3,4,5,6,7,15);
 
+// let obj = {
+//   name:'Firdabs',
+//   lasname:'Sherzodov',
+//   age:17
+// }
+// let first = [ {id:1}];
+// let secent = [1,2,3,4,5,6,7,8,9,10];
 
+// let comback = [ ...first,  'salom',...secent];
+// first.id = 3;
+// console.log(first);
 
+//  let jaoin = comback.join('-')  ;
 
+// secent.forEach((cml,index)=>{
 
+//   console.log(cml,index);
 
+//  })
+// let numbers = [2, 1, 3, 4, 7, 5, 6, 8, 9];
 
+//  console.log(seven);
 
+// numbers.sort(
+// (a, b) => {
+//   if (a > b) return -1;
+//   if (a < b) return 1;
+//   return 0;
+// });
+// console.log(numbers.sort() );
 
+// console.log(numbers.reverse());
 
- 
+// const date = [
+//   { id: 2, name: "botir", age: 17 },
+//   { id: 3, name: "Ali", age: 17 },
+//   { id: 1, name: "Firdavs", age: 17 },
+// ];
 
+// date.sort((first, second) => {
+//   if (first.id < second.id) return -1;
+//   if (first.id > second.id) return 1;
+//   return 0;
+// });
 
+// console.log(date);
+// let numbers = [2, 1, 3,4,5 ];
 
+// bu every methods berilgan shartni bitasi talabga javob bermasa u boolen wiymat qaytaradi yani false
+// let isFollow = numbers.every((number)=>{
+// return number >= 0;
+// })
+// console.log(isFollow);
 
- 
+// bu some methods berilgan shartni atiga bitasi togri bolsa ham ture qaytaradi
+// let isUfollow = numbers.some((num)=>{
+// return num >=0;
+// });
+
+// console.log(isUfollow);
+
+// FILTER
+
+// let item = numbers.filter(num => num >= 0).map(number => {return {value:number}}).filter(num => num.value > 1);
+// let num = filtered2;
+
+// let item = filtered2.map((number) => "<h1>" + number + "</h1>");
+// let html =
+// `<ul>
+// ${item.join('')}
+// </ul>`
+// console.log(html);
+
+// console.log(item);
+
+// let firdavs = 0;
+
+// let sum = numbers.reduce((sum,num)=>{
+//  return firdavs =  sum + num  ;
+// })
+// console.log(firdavs);
+
+// MASALALAR
+// let numbers = Hisoblash(1,5)
+
+// console.log(numbers);
+
+// function Hisoblash(min,max) {
+// let result = [];
+// for(let i= min; i <= max; i++)
+// result.push(i)
+// return result
+// }
+
+// INCLUDES QO'LDA METHODS
+// const numbers = [1,2,3,4,5,6]
+
+// let exites = Includes(numbers, 7)
+
+// // console.log(exites);
+
+//   function Includes(param1,param2) {
+//     for(let first of param1 )
+//     if(first === param2)
+//     return true;
+//   return false;
+//   }
+
+// oriniga suradigan
+// let numbers = [1, 2, 3, 4];
+// let output = move(numbers, 0, 2);
+
+// console.log(output);
+
+// function move(a, b, d) {
+// let posiotion = b + d;
+// if(posiotion >= a.length || posiotion < 0 ){
+//   console.error('invalid posiotion');
+// }
+
+//   let result = [...a];
+
+//   let element = result.splice(b, 1)[0];
+//   result.splice(posiotion, 0, element);
+
+//   return result;
+// }
+
+// Natijasi eng kattasini olib beradi
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+// let maxNumver = Natija(numbers);
+
+// console.log(maxNumver);
+
+// function Natija(num) {
+//   if (num.length === 0) return false;
+
+//   let maxNumber = num[0];
+//   for (let i = 1; i < num.length; i++)
+//     if (num[i] > maxNumber) maxNumber = num[i];
+
+//   return maxNumber;
+// }
+
+// let a = 15;
+
+// if (a > 10) {
+//   console.log((a += 3));
+// }
+// if (a < 10) {
+//   console.log(a * 2);
+// }if (a == 10) {
+//   console.log(22);
+// }
+
+// let a = 9;
+// let b = a / 3;
+// let d = Math.floor(b)
+// console.log(d);
+
+// let a = 8;
+
+// let b = a % 3;
+// console.log(b);
+
+// function lesson(a,b,c) {
+//   if (a > b && a > c) {
+//     return a;
+//   }
+//   if (b > a && b > c) {
+//     return b;
+//   }return c;
+// }
+
+// console.log(lesson(2,7,6));
+
+// function Lesson(a) {
+//   if (a > 0 && a < 9 && true ) {
+//     return "Son";
+//   } else {
+//     return "Alpha";
+//   }
+// }
+
+// function Lesson(a) {
+//   if (a > "a" && a < "z") {
+//     return "lowerCase";
+//   } else if (a > "A" && a < "Z") {
+//     return "upperCase";
+//   }
+//   return "none";
+// }
+// console.log(Lesson('S'));
+
+// function weekDat(a, b, c) {
+//   if ((a == b) == c) {
+//     return "teng tomonli";
+//   }
+//   if (a == b || b == c || a == c) {
+//     return "teng yonli";
+//   }
+//   return "ixtiroyi";
+// }
+// console.log(weekDat(24  , 10, 20));
+
+// function lesson(a, b, c) {
+//   let count = 0;
+//   if (a > 0) {
+//     count++;
+//   }
+//   if (b > 0) {
+//     count++;
+//   }
+//   if (c > 0) {
+//     count++;
+//   }
+//   return count;
+// }
+// console.log(lesson(-4,-3,5));
+
+function lesson(a, b, c) {
+  if (c > b && b > a) {
+    return 1;
+  }
+  if (a > b && b > c) {
+    return 2;
+  }
+  if (a == b && b == c) {
+    return 5;
+  }
+  return 0;
+}
+
+console.log(lesson(15, 10, 5));
