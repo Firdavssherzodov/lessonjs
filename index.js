@@ -1201,17 +1201,128 @@ input.oninput = () => {
 // }
 // console.log(lesson(-4,-3,5));
 
-function lesson(a, b, c) {
-  if (c > b && b > a) {
-    return 1;
-  }
-  if (a > b && b > c) {
-    return 2;
-  }
-  if (a == b && b == c) {
-    return 5;
-  }
-  return 0;
-}
+// function lesson(a, b, c) {
+//   if (a > 0 && b > 0 && c > 0) {
+//     return a * 100 + b * 10 + c;
+//   }
+//   if (a <= 0 || b <= 0 || c <= 0) {
+//     return 0;
+//   }
+// }
 
-console.log(lesson(15, 10, 5));
+// console.log(lesson(3, 0, 5));
+
+// const numbers = [1, 2,3,4];
+
+// let consturect = Natija(numbers);
+
+// console.log(consturect);
+
+// function Natija(numbers) {
+//   if (numbers.lenght === 0) return false;
+
+//   let maxNumber = numbers[0];
+
+//   for (let i = 0; i < numbers.length; i++) {
+
+//     if (numbers[i] > maxNumber) {
+//       maxNumber = numbers[i];
+//     }
+//   }
+//   return maxNumber;
+// }
+
+// console.log(b);
+
+// function name1() {
+//   var a = 10;
+//   let b = 12;
+// }
+
+// name1()
+
+// console.log(a);
+// console.log(b);
+
+// if (a) {
+//   var a = 10;
+//   let b = 12;
+// }
+// console.log(a);
+
+// const arry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+// console.log(arry);
+
+// let arr1 = arry.filter((list) => {
+//   if (list % 2 === 0) {
+//     return true;
+//   }
+//   return false;
+// });
+
+// console.log(arr1);
+
+// let srr3 = arry.reduce((acc, list) => {
+//   return acc + list;
+// });
+
+// console.log(srr3);
+
+// let arry5  = arry.splice(0,2,2,1)
+// console.log(arry5);
+
+// let arry6  = arry.slice(0,5)
+// console.log(arry6);
+
+// let name1 = "firdavs";
+
+// let reverse2 = name1
+//   .split("")
+//   .reverse()
+//   .reduce((acc, list) => {
+//     return acc + list;
+//   });
+
+// console.log(reverse2);
+
+// let a = 10;
+// let sum = 0;
+
+// for (let i = 0; i <= a; i++) {
+//   if (i % 2 !== 0) {
+//     sum = sum + i;
+//   }
+// }
+
+// console.log(sum);
+
+// let a = 10;
+// let count = 0;
+// for (let i = 0; i < a; i++) {
+//   if (i % 2 == 0) {
+//     count++;
+//   }
+// }
+// console.log(count);
+// -----------------------------
+// let a = 3;
+// let b = 4;
+// let sum = 0;
+// let temp = 0;
+
+// for (let i = 0; i < b; i++) {
+//   sum = sum * 10 + a;
+//   temp = temp + sum;
+// }
+// console.log(temp);
+
+let arry = [1, 2, 6, 5, 4, 7,1,2];
+
+let sum = 0;
+
+for (let i = 0; i < arry.length; i++) {
+  for (let item of arry) {
+    }
+  }
+}
