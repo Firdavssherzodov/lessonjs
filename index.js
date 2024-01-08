@@ -425,25 +425,25 @@
 // console.log(a);
 // console.log(b);
 
-// class Car {
-//     constructor(options) {
-//         this.name = options.name
-//         this.age = options.age
-//         this.lastName = options.lastName
-//     }
+class Car {
+  constructor(options) {
+    this.name = options.name;
+    this.age = options.age;
+    this.lastName = options.lastName;
+  }
 
-//     speed(){
-//         console.log('100/ km');
-//     }
-// }
+  speed() {
+    console.log("100/ km");
+  }
+}
 
-// const css = new Car(options= {
-//     name: 'Firdavs',
-//     age: 17,
-//     lastName: 'Sherzodov'
-
-// }
-// )
+const css = new Car(
+  (options = {
+    name: "Firdavs",
+    age: 17,
+    lastName: "Sherzodov",
+  })
+);
 
 //  class Bus extends Car{}
 
@@ -1317,12 +1317,30 @@ input.oninput = () => {
 // }
 // console.log(temp);
 
-let arry = [1, 2, 6, 5, 4, 7,1,2];
+let arry = [1, 2, 4, 5, 6, 4, 9, 1, 7, 2];
 
 let sum = 0;
-
+let num = 0;
+let index_6 = 0;
+let index_7 = 0;
 for (let i = 0; i < arry.length; i++) {
-  for (let item of arry) {
-    }
+  if (arry[i] == 6) {
+    index_6 = i;
+  }
+  if (arry[i] == 7) {
+    index_7 = i;
   }
 }
+
+for (let item of arry) {
+  num += item;
+}
+
+let natija = arry.slice(index_6, index_7);
+
+for (let item of natija) {
+  sum += item;
+}
+
+let Natija = num - sum;
+console.log(Natija);
